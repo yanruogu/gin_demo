@@ -1,0 +1,24 @@
+server:
+  version: v1.0.2
+  name: yap
+  mode: dev
+  port: 8081
+database:
+  host: 172.26.214.43
+  port: 3306
+  user: root
+  password: redhat
+  dbname: test
+redis:
+  host: 172.26.214.43
+  port: 6379
+  db: 0
+  password: ""
+log:
+  level: info
+  path: "./logs/test.log"
+  max_size: 10
+  max_backups: 5
+  max_age: 30
+  
+  
